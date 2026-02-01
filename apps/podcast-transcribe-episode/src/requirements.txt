@@ -4,3 +4,4 @@ google-cloud-storage==1.38.0
 
 # Newer libcst requires Rust compiler
 libcst==0.3.23
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
